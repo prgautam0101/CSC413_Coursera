@@ -1,0 +1,32 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.backup
+*.log
+
+# Ignore executable files
+*.out
+*.exe
+
+# Ignore compiled files
+*.o
+*.so
+
+# Ignore shell history files
+.history
+.bash_history
+
+# Ignore environment and IDE-specific files
+*.env
+.idea/
+.vscode/
+*.iml
+
+# Ignore backup or generated files
+*~
